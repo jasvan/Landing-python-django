@@ -1,0 +1,25 @@
+Instrucciones para la creacion de proyectos en python
+instalar python en el sistema operativo
+por la consola de comandos instalar django
+comosaver lavercion de python : python  --version or python3 --version
+como saber si la tinene la maquina virtual con: virtualenv --version
+instalar una maquina virtual: pip intall virtualenv
+nos ubicamos en donde crearemos la maquina virtual
+crear una maquina virtual con el comando:
+virtualenv  "nombre_de_la_maquina_virtual"
+y el proyecto para lanzarlo:
+django-admin startproject  "NOMBRE DEL PROYECTO"
+una vez creado el proyecto activamos la maquina para poder validar que el codigo tenga efecto
+para linux  " source nombreMaquina/bin/activate "
+para windows " nombreMaquina\Scripts\activate "  app\Scripts\activate
+
+cuando queda activada el nombre de la maquina se muestra en el prompt
+Ahora acedemos al proyecto base " cd nombre-del-proyecto  "
+despues de esto abrimos el proyecto desde el editor de codigo
+crear el proyecto base y levantarlo con el comando
+django-admin startproject nombre_del_proyecto
+iniciar el servidor python manage.py runserver
+creamos la migraciones:
+python manage.py makemigrations
+python manage.py migrate
+
